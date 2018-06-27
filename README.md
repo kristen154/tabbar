@@ -10,6 +10,7 @@ WeChat small program tabbar
 1、与template.wxml中的绑定的tabBar对应   
 <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">......</block>   
 2、template.js中使用that.setData({ bindData });表明bindData作为key   
-3、index.js或其他页面js使用template.tabbar("tabBar", 0, this)来使用注册template,其中的"tabBar"对应bindData.tabBar中tabBar   
+3、index.js或其他页面js使用template.tabbar("tabBar", 0, this)来使用注册template,其中的"tabBar"对应bindData.tabBar中tabBar  
+博客链接：https://blog.csdn.net/qq_29729735/article/details/78933721
  
  
