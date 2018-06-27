@@ -1,4 +1,5 @@
 //app.js
+var template = require('template/template.js');  
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -33,6 +34,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    template:template 
   }
 })
